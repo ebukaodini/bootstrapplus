@@ -6,15 +6,73 @@
    <title>Bootstrap Plus</title>
 
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-   <script src="src/bootstrapplus.js"></script>
-   <script src="bootstrapplus.js"></script>
+   <script src="index.js"></script>
 </head>
-<body>
+<body class="container">
    
    <header class="header">
-      <h1 class="headerbrand h3">Bootstrap Plus</h1>
-      <small>A bootstrap extension</small>
+      <h1 class="headerbrand display-4">Bootstrap Plus</h1>
+      <small class="d-block">A bootstrap extension</small>
    </header>
 
+   <section class="text-center">
+
+      <h2>Swatches</h2>
+
+      <h2>Tables</h2>
+      <table class="table table-bordered table-striped table-primary table-sm table-hover">
+         <tr>
+            <th>Key</th>
+            <th>Value</th>
+         </tr>
+         <tr>
+            <td>Firstname</td>
+            <td>Foo</td>
+         </tr>
+         <tr>
+            <td>Lastname</td>
+            <td>Bar</td>
+         </tr>
+      </table>
+
+      <h2>Buttons</h2>
+      <button class="btn btn-sm my-3 btn-primary">Primary Button</button>
+      <button class="btn btn-sm my-3 btn-outline-primary">Primary Outline Button</button>
+      <button class="btn btn-sm my-3 btn-primary" disabled>Disabled Button</button>
+
+      <h2>Badges</h2>
+      <span class="badge badge-sm badge-primary">badge</span>
+      <span class="badge badge-sm badge-secondary">badge</span>
+
+      <h2>Texts</h2>
+      <p class="text-primary">
+         Hello World
+      </p>
+
+      <h2>Alert</h2>
+      <div class="alert alert-primary">Hello World!</div>
+
+      <h2>Background</h2>
+      <div class="bg-primary">
+         This is a Primary Background
+      </div>
+
+   </section>
+
 </body>
+<script>
+   bootstrapplus.alias({
+      "header": "jumbotron rounded-0 text-center bg-light",
+      "headerbrand": "text-primary"
+   });
+
+   bootstrapplus.swatch({
+      "primary": "#007bff",
+      "secondary": "#6c757d",
+      "success": "#28a745",
+      "info": "#17a2b8",
+      "warning": "#ffc107",
+      "danger": "#dc3545"
+   });
+</script>
 </html>
