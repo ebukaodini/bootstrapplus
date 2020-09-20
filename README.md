@@ -30,8 +30,6 @@ window.onload = function() {
 <button class="navlink-btns">Nav Button 2</button>
 <button class="navlink-btns">Nav Button 3</button>
 ```
-### Result
-
 
 ### Swatch
 Define your own colour swatch for primary, secondary, success, info, warning, danger.
