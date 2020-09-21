@@ -2,7 +2,7 @@
 # bootstrap-plus
 A bootstrap extension.
 
-<!-- Badges -->
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a5e3311c-926f-48f3-85a6-465b374859ac/deploy-status)](https://app.netlify.com/sites/bootstrap-plus/deploys)
 
 <!-- Visuals -->
 
