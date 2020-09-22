@@ -16,7 +16,7 @@ Just include the source script in your HTML code
 ### NPM
 Install the npm package
 ```git
-> npm install @~melki/bootstrap-plus
+> npm i @~melki/bootstrap-plus
 ```
 Import the package in your App.js
 ```jsx
