@@ -7,16 +7,28 @@ A bootstrap extension.
 <!-- Visuals -->
 
 ## Getting Started 🚀
-Just include in your HTML code
+### CDN
+Just include the source script in your HTML code
 ```html
-<script src="src/bootstrapplus.js"></script>
+<script src="https://bootstrap-plus.netlify.app/lib/bootstrapplus.js"></script>
 ```
+
+### NPM
+Install the npm package
+```git
+> npm install @~melki/bootstrap-plus
+```
+Import the package in your App.js
+```jsx
+import bsp from '@~melki/bootstrap-plus';
+```
+
 
 ## Usage
 ### Alias
 Alias allows you to wrap all your bootstrap classNames in your one single className. #DRY
 
-### Example
+## Example
 ```javascript
 window.onload = function() {
    bootstrapplus.alias({
