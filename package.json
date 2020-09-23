@@ -1,5 +1,5 @@
 {
-  "name": "@~melki/bootstrap-plus",
+  "name": "@bootstrap-plus/bootstrap-plus",
   "version": "1.0.0",
   "description": "A bootstrap extension.",
   "main": "index.js",
@@ -24,5 +24,5 @@
   "bugs": {
     "url": "https://github.com/Ebuka18/bootstrap-plus/issues"
   },
-  "homepage": "https://github.com/Ebuka18/bootstrap-plus#readme"
+  "homepage": "https://bootstrap-plus.netlify.app"
 }

@@ -4,8 +4,6 @@ A bootstrap extension.
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a5e3311c-926f-48f3-85a6-465b374859ac/deploy-status)](https://app.netlify.com/sites/bootstrap-plus/deploys)
 
-<!-- Visuals -->
-
 ## Getting Started 🚀
 ### CDN
 Just include the source script in your HTML code
@@ -16,7 +14,7 @@ Just include the source script in your HTML code
 ### NPM
 Install the npm package
 ```git
-> npm i @~melki/bootstrap-plus
+> npm i @bootstrap-plus/bootstrap-plus
 ```
 Import the package in your App.js
 ```jsx
@@ -27,20 +25,27 @@ import bsp from '@~melki/bootstrap-plus';
 ## Usage
 ### Alias
 Alias allows you to wrap all your bootstrap classNames in your one single className. #DRY
+```javascript
+window.onload = function() {
+   bootstrapplus.alias({
+      "common-name": "name1 name2 name3 name4 ..."
+   });
+}
+```
 
 ## Example
 ```javascript
 window.onload = function() {
    bootstrapplus.alias({
-      "navlink-btns": "btn btn-sm btn-primary rounded-0"
+      "mybtns": "btn btn-sm btn-primary rounded-0"
    });
 }
 ```
 
 ```html
-<button class="navlink-btns">Nav Button 1</button>
-<button class="navlink-btns">Nav Button 2</button>
-<button class="navlink-btns">Nav Button 3</button>
+<button class="mybtns">Button 1</button>
+<button class="mybtns">Button 2</button>
+<button class="mybtns">Button 3</button>
 ```
 
 ### Swatch
@@ -78,3 +83,7 @@ Our next release would be featuring themes. 🤞
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
+
+## Homepage
+
+[Homepage](https://bootstrap-plus.netlify.app)
