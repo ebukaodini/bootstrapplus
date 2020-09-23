@@ -18,7 +18,7 @@ Install the npm package
 ```
 Import the package in your App.js
 ```jsx
-import bsp from '@~melki/bootstrap-plus';
+import bsp from '@bootstrap-plus/bootstrap-plus';
 ```
 
 
