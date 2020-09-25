@@ -8,7 +8,7 @@ A bootstrap extension.
 ### CDN
 Just include the source script in your HTML code
 ```html
-<script src="https://bootstrap-plus.netlify.app/lib/bootstrapplus.js"></script>
+<script src="https://bootstrap-plus.netlify.app/dist/bootstrapplus.js"></script>
 ```
 
 ### NPM
@@ -18,7 +18,7 @@ Install the npm package
 ```
 Import the package in your App.js
 ```jsx
-import bsp from '@bootstrap-plus/bootstrap-plus';
+import { bootstrapplus } from "@bootstrap-plus/bootstrap-plus";
 ```
 
 
