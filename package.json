@@ -1,6 +1,6 @@
 {
   "name": "@bootstrap-plus/bootstrap-plus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A bootstrap extension.",
   "main": "index.js",
   "scripts": {
