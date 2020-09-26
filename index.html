@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Bootstrap Plus</title>
+
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+   <script src="dist/bootstrapplus.js"></script>
+</head>
+<body style="height: 100vh;">
+   
+   <div class="bg-light">
+      
+      <header class="bg-primary text-center py-lg-4">
+         <h1 class="display-4">Bootstrap Plus</h1>
+         <span class="font-weight-normal">A bootstrap extension</span>
+         <a href="https://github.com/Ebuka18/bootstrap-plus" class="text-light small d-block">Github Repo</a>
+      </header>
+
+      <main class="container w-100">
+
+         <section class="my-3">
+            <p>
+               <h4>Alias</h4>
+               Alias allows you to wrap all your bootstrap classNames in your one single className. #DRY
+            </p>
+
+            <div class="p-4 rounded bg-dark text-light small">
+               bootstrapplus.alias({<br>
+                  <span class="pl-3">"common-name": "name1 name2 name3 name4 ..."</span> <br>
+               });
+            </div>
+         </section>
+
+         <section class="my-3">
+            <p>
+               <h4>Swatch</h4>
+               Define your own colour swatch for primary, secondary, success, info, warning, danger.
+               <small class="d-block">Click on the hex codes to change the swatch</small>
+            </p>
+
+            <div class="p-4 rounded bg-dark text-light small">
+               bootstrapplus.swatch({<br>
+               <div class="pl-3">
+                  primary: 
+                  <label id="primarylabel" for="primaryswatch" title="Click to change the primary swatch">#007bff</label>
+                  <input id="primaryswatch" class="d-none" type="color" onchange="changeSwatch('primary', this.value);document.getElementById('primarylabel').innerHTML = this.value;">
+                  ,<br>
+
+                  secondary: 
+                  <label id="secondarylabel" for="secondaryswatch" title="Click to change the secondary swatch">#6c757d</label>
+                  <input id="secondaryswatch" class="d-none" type="color" onchange="changeSwatch('secondary', this.value);document.getElementById('secondarylabel').innerHTML = this.value;">
+                  ,<br>
+
+                  success: 
+                  <label id="successlabel" for="successswatch" title="Click to change the success swatch">#28a745</label>
+                  <input id="successswatch" class="d-none" type="color" onchange="changeSwatch('success', this.value);document.getElementById('successlabel').innerHTML = this.value;">
+                  ,<br>
+
+                  info: 
+                  <label id="infolabel" for="infoswatch" title="Click to change the info swatch">#17a2b8</label>
+                  <input id="infoswatch" class="d-none" type="color" onchange="changeSwatch('info', this.value);document.getElementById('infolabel').innerHTML = this.value;">
+                  ,<br>
+
+                  warning: 
+                  <label id="warninglabel" for="warningswatch" title="Click to change the warning swatch">#ffc107</label>
+                  <input id="warningswatch" class="d-none" type="color" onchange="changeSwatch('warning', this.value);document.getElementById('warninglabel').innerHTML = this.value;">
+                  ,<br>
+
+                  danger: 
+                  <label id="dangerlabel" for="dangerswatch" title="Click to change the danger swatch">#dc3545</label>
+                  <input id="dangerswatch" class="d-none" type="color" onchange="changeSwatch('danger', this.value);document.getElementById('dangerlabel').innerHTML = this.value;">
+
+               </div>
+               });
+            </div><br>
+
+            <p>
+               <h5>Buttons</h5>
+               <button class="btn btn-primary btn-sm">btn-primary</button>
+               <button class="btn btn-secondary btn-sm">btn-secondary</button>
+               <button class="btn btn-success btn-sm">btn-success</button>
+               <button class="btn btn-info btn-sm">btn-info</button>
+               <button class="btn btn-warning btn-sm">btn-warning</button>
+               <button class="btn btn-danger btn-sm">btn-danger</button>
+            </p><br>
+
+            <p>
+               <h5>Outline Buttons</h5>
+               <button class="btn btn-outline-primary btn-sm">btn-outline-primary</button>
+               <button class="btn btn-outline-secondary btn-sm">btn-outline-secondary</button>
+               <button class="btn btn-outline-success btn-sm">btn-outline-success</button>
+               <button class="btn btn-outline-info btn-sm">btn-outline-info</button>
+               <button class="btn btn-outline-warning btn-sm">btn-outline-warning</button>
+               <button class="btn btn-outline-danger btn-sm">btn-outline-danger</button>
+            </p><br>
+
+            <p>
+               <h5>Badges</h5>
+               <span class="badge badge-primary badge-sm">badge-primary</span>
+               <span class="badge badge-secondary badge-sm">badge-secondary</span>
+               <span class="badge badge-success badge-sm">badge-success</span>
+               <span class="badge badge-info badge-sm">badge-info</span>
+               <span class="badge badge-warning badge-sm">badge-warning</span>
+               <span class="badge badge-danger badge-sm">badge-danger</span>
+            </p><br>
+
+            <p>
+               <h5>Texts</h5>
+               <span class="text-primary">text-primary</span>
+               <span class="text-secondary">text-secondary</span>
+               <span class="text-success">text-success</span>
+               <span class="text-info">text-info</span>
+               <span class="text-warning">text-warning</span>
+               <span class="text-danger">text-danger</span>
+            </p><br>
+
+            <p>
+               <h5>Background</h5>
+               <span class="d-block p-3 bg-primary">bg-primary</span>
+               <span class="d-block p-3 bg-secondary">bg-secondary</span>
+               <span class="d-block p-3 bg-success">bg-success</span>
+               <span class="d-block p-3 bg-info">bg-info</span>
+               <span class="d-block p-3 bg-warning">bg-warning</span>
+               <span class="d-block p-3 bg-danger">bg-danger</span>
+            </p><br>
+
+            <p>
+               <h5>Tables</h5>
+               <table class="table table-primary">
+                  <tr>
+                     <th>table-primary</th>
+                     <th>Firstname</th>
+                     <th>Lastname</th>
+                  </tr>
+                  <tr>
+                     <td></td>
+                     <td>John</td>
+                     <td>Doe</td>
+                  </tr>
+               </table>
+               <table class="table table-secondary">
+                  <tr>
+                     <th>table-secondary</th>
+                     <th>Firstname</th>
+                     <th>Lastname</th>
+                  </tr>
+                  <tr>
+                     <td></td>
+                     <td>John</td>
+                     <td>Doe</td>
+                  </tr>
+               </table>
+               <table class="table table-success">
+                  <tr>
+                     <th>table-success</th>
+                     <th>Firstname</th>
+                     <th>Lastname</th>
+                  </tr>
+                  <tr>
+                     <td></td>
+                     <td>John</td>
+                     <td>Doe</td>
+                  </tr>
+               </table>
+               <table class="table table-info">
+                  <tr>
+                     <th>table-info</th>
+                     <th>Firstname</th>
+                     <th>Lastname</th>
+                  </tr>
+                  <tr>
+                     <td></td>
+                     <td>John</td>
+                     <td>Doe</td>
+                  </tr>
+               </table>
+               <table class="table table-warning">
+                  <tr>
+                     <th>table-warning</th>
+                     <th>Firstname</th>
+                     <th>Lastname</th>
+                  </tr>
+                  <tr>
+                     <td></td>
+                     <td>John</td>
+                     <td>Doe</td>
+                  </tr>
+               </table>
+               <table class="table table-danger">
+                  <tr>
+                     <th>table-danger</th>
+                     <th>Firstname</th>
+                     <th>Lastname</th>
+                  </tr>
+                  <tr>
+                     <td></td>
+                     <td>John</td>
+                     <td>Doe</td>
+                  </tr>
+               </table>
+            </p><br>
+
+            <p>
+               <h5>List Groups</h5>
+               <div class="list-group">
+                  <div class="p-3 border-primary list-group-item-primary">list-group-item-primary</div>
+                  <div class="p-3 border-secondary list-group-item-secondary">list-group-item-secondary</div>
+                  <div class="p-3 border-success list-group-item-success">list-group-item-success</div>
+                  <div class="p-3 border-info list-group-item-info">list-group-item-info</div>
+                  <div class="p-3 border-warning list-group-item-warning">list-group-item-warning</div>
+                  <div class="p-3 border-danger list-group-item-danger">list-group-item-danger</div>
+               </div>
+            </p>
+
+         </section>
+
+      </main>
+      
+   </div>
+   
+</body>
+
+<footer class="bg-dark w-100 text-center py-3">
+   <a href="https://github.com/Ebuka18/bootstrap-plus" class="text-light small">Github Repo</a>
+</footer>
+
+<script>
+
+   function changeSwatch(swatch, hex) {
+      bsp = {};
+      bsp[swatch] = hex;
+      bootstrapplus.swatch(bsp);
+   }
+
+   bootstrapplus.swatch({
+      "primary": "#007bff",
+      "secondary": "#6c757d",
+      "success": "#28a745",
+      "info": "#17a2b8",
+      "warning": "#ffc107",
+      "danger": "#dc3545"
+   });
+</script>
+</html>
