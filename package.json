@@ -1,0 +1,28 @@
+{
+  "name": "@bootstrap-plus/bootstrap-plus",
+  "version": "1.0.1",
+  "description": "A bootstrap extension.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ebuka18/bootstrap-plus.git"
+  },
+  "keywords": [
+    "Bootstrap",
+    "Themes",
+    "Swatch",
+    "Colors",
+    "CSS",
+    "Alias",
+    "DRY"
+  ],
+  "author": "Ebuka Odini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ebuka18/bootstrap-plus/issues"
+  },
+  "homepage": "https://bootstrap-plus.netlify.app"
+}
