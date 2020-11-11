@@ -8,7 +8,7 @@ A bootstrap extension.
 ### CDN
 Just include the source script in your HTML code
 ```html
-<script src="https://cdn.jsdelivr.net/gh/ebukaodini/bootstrapplus@1.0.0/bootstrapplus.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/ebukaodini/bootstrapplus/dist/bootstrapplus.min.js"></script>
 ```
 
 ### Download
