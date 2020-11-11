@@ -2,25 +2,17 @@
 # bootstrap-plus
 A bootstrap extension.
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/a5e3311c-926f-48f3-85a6-465b374859ac/deploy-status)](https://app.netlify.com/sites/bootstrap-plus/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a5e3311c-926f-48f3-85a6-465b374859ac/deploy-status)](https://app.netlify.com/sites/bootstrapplus/deploys)
 
 ## Getting Started 🚀
 ### CDN
 Just include the source script in your HTML code
 ```html
-<script src="https://bootstrap-plus.netlify.app/dist/bootstrapplus.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/ebukaodini/bootstrapplus@1.0.0/bootstrapplus.min.js"></script>
 ```
 
-### NPM
-Install the npm package
-```git
-> npm i @bootstrap-plus/bootstrap-plus
-```
-Import the package in your App.js
-```jsx
-import { bootstrapplus } from "@bootstrap-plus/bootstrap-plus";
-```
-
+### Download
+Download the [Compressed File](https://bootstrapplus.netlify.app/dist.zip).
 
 ## Usage
 ### Alias
@@ -86,4 +78,4 @@ Our next release would be featuring themes. 🤞
 
 ## Homepage
 
-[Homepage](https://bootstrap-plus.netlify.app)
+[Homepage](https://bootstrapplus.netlify.app)

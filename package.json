@@ -1,14 +1,14 @@
 {
-  "name": "@bootstrap-plus/bootstrap-plus",
+  "name": "@bootstrapplus/bootstrapplus",
   "version": "1.0.0",
   "description": "A bootstrap extension.",
-  "main": "index.js",
+  "main": "dist/bootstrapplus.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ebuka18/bootstrap-plus.git"
+    "url": "git+https://github.com/ebukaodini/bootstrapplus.git"
   },
   "keywords": [
     "Bootstrap",
@@ -22,7 +22,7 @@
   "author": "Ebuka Odini",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Ebuka18/bootstrap-plus/issues"
+    "url": "https://github.com/ebukaodini/bootstrapplus/issues"
   },
-  "homepage": "https://bootstrap-plus.netlify.app"
+  "homepage": "https://bootstrapplus.netlify.app"
 }
