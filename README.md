@@ -2,7 +2,7 @@
 # bootstrap-plus
 A bootstrap extension.
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/a5e3311c-926f-48f3-85a6-465b374859ac/deploy-status)](https://app.netlify.com/sites/bootstrapplus/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a5e3311c-926f-48f3-85a6-465b374859ac/deploy-status)](https://app.netlify.com/sites/bootstrapplus/deploys) [![](https://data.jsdelivr.com/v1/package/npm/@bootstrapplus/bootstrapplus/badge)](https://www.jsdelivr.com/package/npm/@bootstrapplus/bootstrapplus)
 
 ## Getting Started 🚀
 ### CDN
